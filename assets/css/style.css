@@ -1,1 +1,80 @@
+html {
+  background-image: url(../img/desk.jpeg);
+  height: 125vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+body {  
+  font-family:'Quicksand';
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container {
+  margin: 150px auto;
+  padding: 40px;
+  min-width: 500px;
+  width: 45%;
+  text-align: left;
+  color: #484848;
+  font-weight: bold;
+}
+
+form {
+  outline: 0;
+  height: 36px;
+  margin-top: 5%;
+  border: 3px solid #3b3b3b;
+}
+
+input[type="text"] {
+  outline: 0;
+  width: 64%;
+  height: 34px;
+  border: none;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+.add {
+  outline: 0;
+  float: right;
+  width: 34%;
+  height: 36px;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  background-color: #3b3b3b;
+}
+
+ul {
+  padding: 25px;
+  text-align: left;
+  list-style: none;
+}
+
+hr {
+  border-bottom: 0;
+  margin: 14px 0;
+}
+
+input[type="checkbox"] { 
+  width: 60px; 
+}
+
+.remove {
+  float: right;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.completed { 
+  text-decoration: line-through; 
+}
